@@ -177,7 +177,6 @@ public class Condicionales {
                     default: // es como un else
                         System.out.println("Operación no válida. Por favor, elige Suma, Resta, Multiplicacion o Division.");
                 }
-
     }
 }
 
