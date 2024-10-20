@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6948f9fc-58ee-4788-b6f2-49886f8a24c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/src/Condicionales.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios de repaso de lo anterior.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repaso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ejercicios de Java/EjerciciosJava/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ejercicios de Java/EjerciciosJava/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ejercicios de Java/EjerciciosJava/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ejercicios de Java/EjerciciosJava/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ejercicios de Java/EjerciciosJava/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ejercicios de Java/EjerciciosJava/EjerciciosJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ejercicios de Java/EjerciciosJava/src/EjerciciosJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/.idea/Condicionales.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/Condicionales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/out/production/Condicionales/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/out/production/Condicionales/.idea/Condicionales.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/out/production/Condicionales/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/out/production/Condicionales/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/out/production/Condicionales/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/out/production/Condicionales/Condicionales.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Código Java visto en clase/Condicionales/out/production/Condicionales/Condicionales.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bucles/src/Bucles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bucles/src/Bucles.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2neOuULu5JMgBoA8MWjjTKg9G4T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Repaso.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Jose/Desktop/daw/Programacion/Ejercicios Java/Ejercicios de repaso de lo anterior"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6948f9fc-58ee-4788-b6f2-49886f8a24c3" name="Changes" comment="" />
+      <created>1729330302967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729330302967</updated>
+    </task>
+    <servers />
+  </component>
+</project>
