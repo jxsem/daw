@@ -111,7 +111,6 @@ public class Bucles {
                     System.out.print(i + " ");
                 }
             }
-        }
-        dato.close(); // Cerrar el scanner
+
     }
 }
