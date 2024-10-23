@@ -1,0 +1,50 @@
+/* Estilo para el encabezado h1 */
+h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px; /* Espacio debajo del h1 */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para el encabezado h2 */
+h2 {
+    color: black;
+    margin-top: 15px; /* Espacio encima del h2 */
+}
+
+/* Estilo para los elementos de menú */
+.menu-item {
+    background-color: rgb(127, 255, 133);
+    color: black;
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Para que los elementos estén en línea */
+    margin-right: 5px; /* Espacio entre elementos */
+}
+
+/* Estilo para la sección con ID */
+#section {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 15px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo para el botón de envío */
+button[type="submit"] {
+    border: 1px solid black;
+    padding: 10px 10px; /* Padding más grande para un mejor clic */
+    background-color: #e0e0e0; /* Color de fondo gris claro */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    margin-top: 10px;
+}
+
+/* Efecto hover para el botón */
+button[type="submit"]:hover {
+    background-color: lightgray; /* Cambia el color de fondo al pasar el ratón */
+}
+
+form *{
+    display: block;
+}
