@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introducción al CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" /> <!--Se vincula el fichero css al html, es la mejor práctica-->
+</head>
+<body>
+        <h1 id="titulo">Aprendiendo CSS</h1>
+
+        <ul id="menu">
+            
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Temario</a></li>
+            <ul>
+                <li><a href="#">LESS</a></li>
+                <li><a href="#">SASS</a></li>
+                <li><a href="#">Flexbox</a></li>
+                <li><a href="#">CSS Grid</a></li>
+                <li><a href="#">Boostrap</a></li>
+            </ul>
+            <li><a href="https://github.com/jxsem" target="_blank">Temario</a></li> <!--Target = blank es para que se abra en otra pestaña-->
+            <li><a href="#">Github Jose Manuel</a></li>
+            <li><a href="#">Programación con Java</a></li>
+        </ul>
+
+        <div id="descripcion">
+            <h2>Descripcion de la asignatura</h2>
+            <p>Es un lenguaje de estilo utilizado para <mark>describir la presentación</mark> de un documento escrito en HTML o XML</p>
+            <h3>Caracteristicas principales de css</h3>
+             <ol>
+                <li class="caracteristicas1">Estilización</li> <!--el atributo class permite agrupar y estilizar elementos de manera coherente-->
+                <li class="caracteristicas">Selectores</li>
+                <li class="caracteristicas3">Modelo de caja</li>
+                <li class="caracteristicas">Diseño responsivo</li>
+                <li class="caracteristicas">Animaciones y transiciones</li>
+                <li class="caracteristicas">Cascada y espeficidad</li>
+                <li>Prepocesadores</li>
+             </ol>
+        </div>
+
+        <div id="usuario">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="Nombre" >
+
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" name="apellidos" >
+
+                <button type="submit" value="enviar">Enviar</button>
+            </form>
+        </div>
+
+        <footer>Ciclo realizado por Jose Manuel <a href="#">https://www.linkedin.com/in/jose-manuel-soldado-jim%C3%A9nez-364a4b252/</a></footer>
+</body>
+</html>

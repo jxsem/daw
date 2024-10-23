@@ -1,0 +1,108 @@
+/*
+¿Que es un selector -> Coger el elemento que quieras de HTML y darle estilos ?
+*/
+
+/*Selector universal -> Te permite seleccionar TODO EL DOCUMENTO HTML*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+/*Selector de etiqueta*/
+body{
+    background-color: rgb(202, 202, 202);
+}
+h1{
+    font-size: 50px;
+    background-color: lightblue;
+    color: white;
+    padding: 10px; /*Es un margen interno*/
+}
+
+a{
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+
+/*Selecctor de tipo*/
+footer a{ /*Se usa para seleccionar algo que esta dentro de la etiqueta que se está mencionando*/
+    color: violet;
+}
+
+
+
+
+/*Selector de id*/
+#descripcion, /*Uso de la coma + enter para que compartan estilos*/
+#titulo{
+    border: 5px solid black;
+    padding: 15px;
+}
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block; /*Display block -> El elemento ocupa todo el ancho disponible y comienza en una nueva línea. Se comporta como un bloque.*/
+    
+    /*El propiedad display en CSS se utiliza para controlar cómo se muestra un elemento en una página web. 
+    Piensa en display como un interruptor que le dice a los elementos si deben ser visibles y cómo deben comportarse en la página.*/
+}
+
+
+
+/*Selector de clase*/
+.caracteristicas{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: brown;
+}
+
+.caracteristicas1,
+.caracteristicas3{
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+
+.caracteristicas3{
+    background-color: orange;
+    color: black;
+}
+
+
+
+
+
+/*Selector de atributo*/
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+button[type="submit"]{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+
+
+/*Selectores hijo*/
+#menu > li > a{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+}
