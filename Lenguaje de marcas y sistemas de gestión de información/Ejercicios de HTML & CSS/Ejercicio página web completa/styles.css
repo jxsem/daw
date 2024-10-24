@@ -1,0 +1,350 @@
+/* 
+    Estilo general
+    - Elimina márgenes y padding por defecto
+    - Aplica box-sizing: border-box para asegurar que el padding y los bordes se incluyan en el tamaño total de los elementos
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    Estilo del cuerpo (body)
+    - Define la fuente general del sitio
+    - Aplica un color de fondo suave (gris claro)
+    - Ajusta el color del texto
+*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Espaciado entre líneas para facilitar la lectura */
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 
+    Encabezado (header)
+    - Aplica un fondo oscuro y texto blanco
+    - Alinea el contenido (título) al centro
+    - Padding para darle espacio interno
+*/
+#cabecera {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 
+    Título dentro del encabezado
+    - Tamaño de letra grande
+    - Margen inferior para separar el título del contenido siguiente
+*/
+#cabecera h1 {
+    font-size: 2.5em; 
+    /*2.5 veces el tamaño de la fuente raíz, html por defecto tiene 16, 
+    entonces hace que tu diseño sea más flexible, accesible y fácil de escalar.*/
+    margin-bottom: 10px;
+}
+
+/* 
+    Menú de navegación
+    - Elimina los puntos de la lista (list-style-type)
+    - Usa flexbox para alinear los elementos del menú en una fila
+    - Centra los elementos dentro del contenedor
+    - Aplica un fondo gris oscuro (diferente del encabezado)
+*/
+#menu ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    display: flex;          /* Flexbox para alinear los <li> en una fila */
+    justify-content: center; /* Centrar los elementos del menú */
+    padding: 10px 0;
+    background-color: #444;
+}
+
+/* 
+    Elementos del menú de navegación
+    - Margen a la derecha para espaciar los elementos
+    - Elimina el margen en el último elemento (para que no tenga espacio extra)
+*/
+#menu li {
+    margin-right: 30px;
+}
+
+#menu li:last-child {
+    margin-right: 0; /* Quita el margen derecho del último elemento */
+}
+
+/* 
+    Estilo de los enlaces dentro del menú
+    - Color blanco para el texto
+    - Quita el subrayado del texto
+    - Añade una transición suave al cambiar de color en hover
+*/
+#menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s; /* Transición suave en hover */
+}
+
+/* 
+    Efecto hover en los enlaces del menú
+    - Cambia el color al pasar el ratón sobre ellos
+*/
+#menu a:hover {
+    color: #ffa500; /* Color de hover (naranja) */
+}
+
+/* 
+    Sección principal (main)
+    - Padding para añadir espacio interno
+    - Fondo blanco para resaltar esta sección
+    - Ancho máximo de 1000px para controlar el ancho del contenido
+    - Centrado automático
+    - Sombra para hacer que resalte visualmente
+*/
+#main {
+    padding: 20px;
+    background-color: white;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* 
+    Sección de presentación (dentro del main)
+    - Centra el texto y los elementos
+*/
+#cuadro {
+    text-align: center;
+}
+
+/* 
+    Título dentro de la sección de presentación
+    - Tamaño de fuente más grande para hacer el título llamativo
+    - Margen inferior para separarlo del contenido
+*/
+#cuadro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* 
+    Párrafo dentro de la sección de presentación
+    - Tamaño de letra ligeramente más grande para mejorar la legibilidad
+    - Margen inferior para separar el párrafo de la imagen
+*/
+#cuadro p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* 
+    Imagen dentro de la sección de presentación
+    - Tamaño máximo de 300px y ajuste automático de la altura
+    - Borde redondeado y sombra para darle estilo
+*/
+#cuadro img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* 
+    Sección de servicios
+    - Fondo gris claro
+    - Padding para añadir espacio interno
+    - Texto centrado
+*/
+#servicios {
+    background-color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 
+    Título de la sección de servicios
+    - Tamaño de fuente grande
+    - Margen inferior para separar el título del contenido
+*/
+#servicios h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* 
+    Cuadros de los servicios
+    - Fondo blanco, padding y sombra para hacer que resalten
+    - Se centran y se añade un efecto de hover
+    - Margen automático para ajustar en pantallas pequeñas
+*/
+.cuadros-blancos {
+    background-color: white;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s; /* Transición para el hover */
+}
+
+/* 
+    Efecto hover en los cuadros de servicios
+    - Aumenta el tamaño ligeramente al pasar el ratón (zoom)
+*/
+.cuadros-blancos:hover {
+    transform: scale(1.05); /* Efecto de zoom en hover */
+}
+
+/* 
+    Título de cada servicio
+    - Tamaño de fuente más grande
+    - Margen inferior para separarlo del contenido
+*/
+.cuadros-blancos h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* 
+    Párrafo en cada servicio
+    - Tamaño de fuente más grande para mejor legibilidad
+*/
+.cuadros-blancos p {
+    font-size: 1.1em;
+}
+
+/* 
+    Formulario de contacto
+    - Fondo blanco, padding y sombra
+    - Se centra con un ancho máximo de 600px
+*/
+#formulario-contacto {
+    padding: 20px;
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* 
+    Título del formulario
+    - Texto centrado
+    - Margen inferior para separarlo del contenido
+*/
+#formulario-contacto h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 
+    Fieldset y legend (formulario)
+    - Elimina el borde del fieldset
+    - Define el tamaño del texto para la leyenda
+*/
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* 
+    Etiquetas del formulario
+    - Se muestran como bloques
+    - Negrita para hacerlas más visibles
+*/
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* 
+    Campos de entrada y textarea
+    - Se ajustan al 100% del contenedor
+    - Padding para hacer que el texto tenga espacio interno
+    - Borde gris claro y esquinas redondeadas
+*/
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 
+    Botón de envío
+    - Fondo oscuro, color blanco
+    - Padding interno y borde redondeado
+    - Transición para cambiar de color al hacer hover
+*/
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s; /* Transición en hover */
+}
+
+/* 
+    Efecto hover en el botón
+    - Cambia el color de fondo a naranja
+*/
+button:hover {
+    background-color: #ffa500; /* Cambio de color en hover */
+}
+
+/* 
+    Footer (pie de página)
+    - Fondo oscuro, texto blanco
+    - Texto centrado
+    - Padding para darle espacio interno
+*/
+#pie-pagina {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#pie-pagina p {
+    margin: 0;
+    font-size: 1em;
+}
+
+/* 
+    Responsive Design
+    - Ajustes para pantallas pequeñas (menos de 768px)
+    - El menú de navegación cambia a formato columna
+    - Las imágenes y los cuadros de servicios se ajustan al 100% del ancho disponible
+*/
+
+@media (max-width: 768px) {
+    #menu ul {
+        flex-direction: column; /* Cambia el menú a una columna */
+        align-items: center;    /* Alinea los elementos al centro */
+    }
+
+    #menu li {
+        margin-bottom: 10px; /* Añade espacio entre los elementos en el menú */
+        margin-right: 0;
+    }
+
+    #cuadro img {
+        max-width: 100%; /* Ajusta la imagen al ancho de la pantalla */
+    }
+
+    .cuadros-blancos {
+        max-width: 100%; /* Ajusta los cuadros de servicios al 100% del contenedor */
+    }
+}

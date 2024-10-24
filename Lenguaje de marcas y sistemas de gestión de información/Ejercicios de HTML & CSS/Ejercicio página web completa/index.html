@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web en construcción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="cabecera">
+        <h1>Mi Página Web</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#formulario-contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <section id="cuadro">
+            <h2>Presentación</h2>
+            <p>Esta página es mi primera página en el que poco a poco se irá avanzando con html y css
+                creo que es una buena práctica que a medida que vaya aprendiendo con CSS y use flexbox, grid, responsive implemente esos conocimientos 
+                sobre esta página web. La funcionalidad de ésta página es simple; en la parte de arriba tienes un inicio que como su propio
+                nombre indica, irás al inicio de la pagina web principal. Sobre mí: irás a una breve descripción sobre mí. Servicios: Se redireccionará 
+                a una página donde explico que hago, como lo hago y con qué lenguajes trabajo. Y por último pero no menos importante, contacto que 
+                irás a mis datos personales.
+            </p>
+            <img src="images.png" id="developer" alt="Imagen de un desarrollador">
+        </section>
+
+    </main>
+
+    <div id="servicios">
+
+        <h2>Servicios</h2>
+
+        <div class="cuadros-blancos">
+            <h3>Ventas B2C</h3>
+            <p>Ventas Business to Consumer con el cliente explicando mi servicio.</p>
+        </div>
+
+        <div class="cuadros-blancos">
+            <h3>Desarrollo backend</h3>
+            <p>Desarrollo escalable de servidores.</p>
+        </div>
+
+        <div class="cuadros-blancos">
+            <h3>Desarrollo frontend</h3>
+            <p>Desarrollo del visual de una página web / maquetado.</p>
+        </div>
+    </div>
+
+    <form id="formulario-contacto">
+        <h2>Formulario de contacto</h2>
+        <p>Deja tu nombre, correo y breve mensaje y nos pondremos en contacto lo antes posible.</p>
+        <fieldset>
+            <legend>
+                Contacta con nosotros
+            </legend>
+
+            <label for="name" >Nombre: </label>
+            <input id="name" type="text" placeholder="Tu nombre..">
+
+            <label for="email" >Correo electrónico: </label>
+            <input id="email" type="email" placeholder="Correo..">
+            
+            <label for="mensaje">Escribe tu mensaje: </label>
+            <textarea id="mensaje" placeholder="Estoy interesado en vuestros servicios y me gustaría saber..."></textarea>
+        
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+    <footer id="pie-pagina">
+        <p>Página realizada por Jose Manuel Soldado &copy; 2024</p>
+    </footer>
+
+</body>
+</html>
