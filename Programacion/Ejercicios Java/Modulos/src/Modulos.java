@@ -5,6 +5,9 @@ public class Modulos {
     public static void main(String[] args) { // Este es el punto de entrada de cualquier aplicación Java.
         Scanner dato = new Scanner(System.in);
 
+
+        //Ejercicio 1:
+
         System.out.println("Introduce un primer numero: ");
         int num1 = dato.nextInt();
 
@@ -19,8 +22,9 @@ public class Modulos {
         * en este caso la entrada de datos (num1, num2)*/
 
 
-        // PASAMOS CON UNOS EJERCICIOS :D
 
+
+        //Ejercicio 2:
 
         //Preguntamos por el radio del circulo
         System.out.print("Introduce el radio del circulo: ");
@@ -32,6 +36,7 @@ public class Modulos {
 
 
 
+        //Ejercicio 3:
 
         //Procedemos a preguntar sobre las medidas del triangulo
         System.out.println("Introduce la base del triangulo: ");
@@ -52,7 +57,9 @@ public class Modulos {
 
 
 
-        //Pedimos el nombre al usuario
+        //Ejercicio 4:
+
+        // Pedimos el nombre al usuario
         System.out.println("Dime tu nombre: ");
         //Nos entra el nombre por consola
         String nombre = dato.nextLine();
@@ -61,7 +68,15 @@ public class Modulos {
         //System.out.println(generarSaludo(nombre));
         System.out.println(saludoPersonal);
 
-        dato.close();
+
+        //Ejercicio 5:
+        System.out.println("Inserte un numero para saber su tabla de multiplicar: ");
+
+        //Nos entra el numero para multiplicar
+        int numeroTabla = dato.nextInt();
+        // Al ser un metodo procedimiento (no retorna)
+        //Simplemente se llama por su nombre y se le pasan los argumentos necesarios. Por ejemplo:
+        imprimirTablaMultiplicar(numeroTabla);
     }
 
     /*Ejercicio 1: Crear metodo que haga una suma de dos numeros*/
@@ -82,5 +97,12 @@ public class Modulos {
     /*Ejercicio 4: Saludo Personalizado*/
     public static String generarSaludo(String nombre) {
         return "¡Hola, " + nombre + "!"; // Crear el saludo
+    }
+
+    /*Ejercicio 5 (PROCEDIMIENTO): Imprimir una Tabla de Multiplicar*/
+    public static void imprimirTablaMultiplicar(int numeroTabla){
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(numeroTabla + " x " + i + " = " + (numeroTabla * i));
+        }
     }
 }
