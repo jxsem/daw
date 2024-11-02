@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bucles/Bucles.iml" filepath="$PROJECT_DIR$/Bucles/Bucles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Condicionales/Condicionales.iml" filepath="$PROJECT_DIR$/Condicionales/Condicionales.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Código Java visto en clase.iml" filepath="$PROJECT_DIR$/.idea/Código Java visto en clase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hola Mundo/Hola Mundo.iml" filepath="$PROJECT_DIR$/Hola Mundo/Hola Mundo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Introduccion primitivos/Introduccion primitivos.iml" filepath="$PROJECT_DIR$/Introduccion primitivos/Introduccion primitivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Programacion modular/Programacion modular.iml" filepath="$PROJECT_DIR$/Programacion modular/Programacion modular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Variables/Variables.iml" filepath="$PROJECT_DIR$/Variables/Variables.iml" />
+    </modules>
+  </component>
+</project>
