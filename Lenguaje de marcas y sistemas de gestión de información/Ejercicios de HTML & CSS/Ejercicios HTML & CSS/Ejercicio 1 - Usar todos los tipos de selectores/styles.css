@@ -1,3 +1,12 @@
+/*Estilo para márgenes*/
+*{
+    display: block;
+}
+
+
+
+
+
 /* Estilo para el encabezado h1 */
 h1 {
     color: rgb(0, 0, 0);
@@ -42,7 +51,7 @@ button[type="submit"] {
 
 /* Efecto hover para el botón */
 button[type="submit"]:hover {
-    background-color: lightgray; /* Cambia el color de fondo al pasar el ratón */
+    background-color: lightgreen; /* Cambia el color de fondo al pasar el ratón */
 }
 
 form *{
