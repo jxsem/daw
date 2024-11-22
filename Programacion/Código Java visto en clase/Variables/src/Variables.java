@@ -16,4 +16,4 @@ public class Variables {
     /*Primitivos son tipos simples, que contienen valor solamente */
 
     /*Rerefencia son tipos de datos que tienen atributos, funciones.. */
-}
+
