@@ -23,8 +23,6 @@ public class Arrays {
             System.out.println(numero);
         }
 
-
-
         
         /*¿Por qué no sería int i : numeros?
         Porque i como índice no tendría sentido aquí. El for-each no trabaja con índices; en su lugar,
@@ -34,6 +32,7 @@ public class Arrays {
         //
         //Usa manual cuando tienes datos estáticos que no cambian.
         //Usa automática cuando los datos son dinámicos o generados en el programa.
+
     }
 
 }
