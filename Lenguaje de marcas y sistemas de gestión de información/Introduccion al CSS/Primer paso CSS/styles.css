@@ -1,0 +1,60 @@
+/* Tamaño base del documento */
+html {
+    font-size: 16px; /* Base para rem */
+}
+
+.absolute-container {
+    width: 5cm;
+    height: 2cm;
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.absolute-text {
+    font-size: 16px; /* Tamaño absoluto */
+}
+.relative-container {
+    font-size: 16px; /* Tamaño base */
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.px-text {
+    font-size: 16px; /* Tamaño fijo */
+}
+
+.em-text-1 {
+    font-size: 1em; /* Relativo al contenedor */
+}
+
+.em-text-2 {
+    font-size: 2em; /* Relativo al contenedor */
+}
+.viewport-container {
+    width: 50vw; /* 50% del ancho de la ventana */
+    height: 30vh; /* 30% del alto de la ventana */
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.container {
+    font-size: 18px; /* Base para em */
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+.text-em {
+    font-size: 1em; /* Relativo al contenedor */
+}
+
+.text-rem {
+    font-size: 1rem; /* Relativo al html */
+}

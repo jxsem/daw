@@ -1,0 +1,52 @@
+/* Base para rem */
+html {
+    font-size: 16px;
+}
+
+/* Contenedor principal */
+.card {
+    width: 80vw; /* 80% del ancho del viewport */
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Imagen con tamaño fijo */
+.card-image {
+    width: 150px; /* Fijo */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Título con em */
+.card-title {
+    font-size: 2em; /* Relativo al contenedor */
+    margin: 10px 0;
+}
+
+/* Texto con rem */
+.card-text {
+    font-size: 1rem; /* Relativo al tamaño base del documento */
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Botón con tamaño relativo al contenedor */
+.card-button {
+    width: 50%; /* 50% del ancho del contenedor */
+    padding: 10px;
+    font-size: 1em; /* Relativo al contenedor */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}

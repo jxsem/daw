@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de medida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="absolute-container">
+        <p class="absolute-text">Texto con tamaño 16px</p>
+    </div>
+
+    <div class="relative-container">
+        <p class="px-text">Texto con tamaño fijo: 16px</p>
+        <p class="em-text-1">Texto relativo al contenedor (1em)</p>
+        <p class="em-text-2">Texto relativo al contenedor (2em)</p>
+    </div>
+
+    <div class="viewport-container">
+        Este contenedor usa vw y vh.
+    </div>
+    <div class="container">
+        <p class="text-em">Tamaño 1em (18px)</p>
+        <p class="text-rem">Tamaño 1rem (16px, relativo al html)</p>
+    </div>
+
+    <!--
+   ¿Dependen del tamaño del monitor?
+    PX: NO. Siempre mide lo mismo sin importar el monitor.
+    EM y %: Sí. Dependen del tamaño del contenedor, que puede ajustarse en monitores pequeños o grandes.
+    REM: Sí. Depende del tamaño base del documento, que puede cambiar en dispositivos con configuraciones personalizadas.
+    VW/VH: SÍ. Estas son las únicas que dependen directamente del tamaño del viewport (monitor o ventana del navegador).
+    
+    Regla práctica:
+    Usa px cuando necesites un tamaño fijo.
+    Usa em o % para diseños flexibles dentro de contenedores.
+    Usa rem para mantener consistencia global en el diseño.
+    Usa vw y vh para elementos que deban adaptarse al tamaño del monitor o ventana.
+    -->
+
+    <!--
+
+    Unidades en CSS:
+
+px (píxeles):
+
+Es una unidad fija que no cambia con el tamaño del contenedor ni del viewport.
+Es útil para elementos que necesitan dimensiones precisas.
+Sin embargo, no es ideal para diseños responsivos, ya que no escala automáticamente.
+
+em (relativa al contenedor):
+Su tamaño depende del tamaño de fuente del elemento padre.
+Ejemplo: si el tamaño de fuente del contenedor es 16px, 1em será igual a 16px. Si usas 2em, será el doble: 32px.
+Es común usar em para espaciamientos o márgenes relacionados con el texto.
+
+% (relativa al contenedor):
+Es un valor relativo al tamaño del elemento contenedor.
+Para ancho y alto, se calcula respecto al tamaño del contenedor en esa dimensión específica.
+Ejemplo: si el contenedor tiene un ancho de 1000px, 50% equivaldrá a 500px.
+
+rem (relativa al root, tamaño de la raíz):
+Es relativa al tamaño de fuente del elemento raíz (<html>).
+Por defecto, el tamaño de fuente del <html> suele ser 16px. Entonces, 1rem = 16px.
+A diferencia de em, no depende de los padres intermedios, lo que lo hace más predecible.
+
+vw y vh (unidades del viewport):
+vw (viewport width): 1 vw equivale al 1% del ancho del viewport.
+vh (viewport height): 1 vh equivale al 1% del alto del viewport.
+
+    -->
+
+</body>
+</html>
