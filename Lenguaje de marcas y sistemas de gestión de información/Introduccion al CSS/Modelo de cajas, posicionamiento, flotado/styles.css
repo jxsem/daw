@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 20px;
+}
+
+
+#cajas{
+    max-width: 1035px; /*el total de las cajas tiene un ancho maximo de 1035px*/
+    border: 1px solid black;
+}
+
+.caja{
+    display: block; 
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    border: 10px solid red;
+    margin: 15px; /*margen 15 pixeles en todos lados*/
+    padding: 20px; /*margen interior*/
+    margin-bottom: 40px;
+    float: left; /*solo se puede para elementos display block*/
+}
+
+.caja p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 230px; /*altura de las lineas de texto*/
+}
+
+#cajas::after { /*after para limpiar flotados, ya que estan diseñados para actuar despues del contenido*/
+    content: "";      /* Crea un pseudo-elemento vacío */
+    display: block;   /* Lo hace visible */
+    clear: both;      /* Limpia los flotados a la izquierda y derecha */
+}
+
+

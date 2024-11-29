@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Arrays {
     public static void main(String[] args) {
         int[] numeros = new int[5];
@@ -33,6 +35,20 @@ public class Arrays {
         //Usa manual cuando tienes datos estáticos que no cambian.
         //Usa automática cuando los datos son dinámicos o generados en el programa.
 
+
+        // Introducir valores por consola
+        var consola = new Scanner(System.in);
+        System.out.println("Proporciona el largo del arreglo: ");
+        var largoArreglo = Integer.parseInt(consola.nextLine()); // leer un valor desde la consola, convertirlo de tipo String a int y asignarlo a la variable largoArreglo, NO ES NECESARIO YA QUE ESTAMOS SOLO ALMACENANDO NUMEROS
+        var enteros = new int[largoArreglo];
+        for(var i = 0; i < largoArreglo; i++){
+            System.out.print("Proporciona enteros[" + i + "] = ");
+            enteros[i] = Integer.parseInt(consola.nextLine());
+        }
+        //Imprimir valores arreglos
+        System.out.println("Impresion del arreglo: ");
+        for(var i = 0; i < largoArreglo; i++)
+            System.out.println("enteros[" + i + "] = " + enteros[i]);
     }
 
 }

@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class EjerciciosArrays {
@@ -5,26 +7,26 @@ public class EjerciciosArrays {
         // 1. Calcular la Suma y el Promedio de un Array
         Scanner dato = new Scanner(System.in);
 
-        // Paso 1: Solicitar el tamaño del array
-        System.out.print("Introduce el tamaño del array: ");
-        int n = dato.nextInt();
+            // Paso 1: Solicitar el tamaño del array
+            System.out.print("Introduce el tamaño del array: ");
+            int n = dato.nextInt();
 
-        int [] numeros = new int[n]; // realizamos el array manual, ya que va a introducir el usuario datos
-        int suma = 0; // inicializamos la variable fuera del for
+            int [] numeros = new int[n]; // realizamos el array manual, ya que va a introducir el usuario datos
+            int suma = 0; // inicializamos la variable fuera del for
 
-        // Paso 2: Llenar el array con valores ingresados por el usuario
-        for (int i = 0; i < numeros.length; i++) {
-            System.out.print("Introduce un número para la posición " + i + ": ");
-            numeros[i] = dato.nextInt();
-            suma += numeros[i]; // Sumar los valores
-        }
+            // Paso 2: Llenar el array con valores ingresados por el usuario
+            for (int i = 0; i < numeros.length; i++) {
+                System.out.print("Introduce un número para la posición " + i + ": ");
+                numeros[i] = dato.nextInt();
+                suma += numeros[i]; // Sumar los valores
+            }
 
-        // Paso 3: Calcular el promedio
-        double promedio = (double) suma / numeros.length;
+            // Paso 3: Calcular el promedio
+            double promedio = (double) suma / numeros.length;
 
-        // Paso 4: Mostrar resultados
-        System.out.println("Suma de los elementos: " + suma);
-        System.out.println("Promedio de los elementos: " + promedio);
+            // Paso 4: Mostrar resultados
+            System.out.println("Suma de los elementos: " + suma);
+            System.out.println("Promedio de los elementos: " + promedio);
 
         /*2. Buscar Elementos en un Array
         Objetivo: Implementar búsqueda lineal y binaria en arrays.*/
