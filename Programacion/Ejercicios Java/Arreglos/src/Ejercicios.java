@@ -18,7 +18,7 @@ public class Ejercicios {
         // Variable para acumular la suma
         int suma = 0;
 
-        // Recorrer arrays con buckle for
+        // Recorrer arrays con bucle for
         for (int i = 0; i < enteros.length ; i++){
             suma+=enteros[i]; // Sumar el valor de cada elemento al total
         }
