@@ -1,7 +1,6 @@
-import java.util.Scanner;
-
-public class Arrays {
+public class RecorrerArray {
     public static void main(String[] args) {
+
         int[] numeros = new int[5];
 
         // Inicializar manualmente
@@ -11,11 +10,9 @@ public class Arrays {
         numeros[3] = 40; // asigna 40 a la posicion 3
         numeros[4] = 50; // asigna 50 a la posicion 4
 
-        // Imprimir el contenido del array
-        for (int i = 0; i < numeros.length; i++) { // se inicia un contador desde la posicion 0, El metodo numeros.length devuelve la longitud del array, asegurando que no se salga del rango.
-            System.out.println("Elemento en índice " + i + ": " + numeros[i]);
+        // Recorrer e imprimir
+        for (int numero : numeros) { // numero ->  Es una variable temporal que se declara dentro del bucle. Su función es almacenar, uno por uno, cada valor del array numeros mientras el bucle itera.
+            System.out.println(numero);
         }
-
     }
-
 }
